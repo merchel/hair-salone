@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LUNA HAIR STUDIO is a premium women's hair salon in Seattle specializing in color, extensions, styling, and luxury hair care.">
+  <title>LUNA HAIR STUDIO | Seattle Luxury Hair Salon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="loader" aria-label="Luna Hair Studio loading">
+    <div class="loader-mark">L</div>
+    <div class="loader-line"><span></span></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Luna Hair Studio home">
+      <span class="brand-symbol" aria-hidden="true">◐</span>
+      <span>
+        <strong>LUNA</strong>
+        <em>Hair Studio</em>
+      </span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#difference">Difference</a>
+      <a href="#services">Services</a>
+      <a href="#gallery">Transformations</a>
+      <a href="#team">Artists</a>
+      <a href="#contact">Book</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1800&q=88" alt="">
+        <div class="hero-shade"></div>
+      </div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Seattle, Washington · Luxury Hair Atelier</p>
+        <h1>Beautiful Hair Changes Everything</h1>
+        <p class="hero-copy">Luxury color, extensions, styling, and hair care designed around you.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#contact">Book Consultation</a>
+          <a class="btn btn-ghost" href="#gallery">View Transformations</a>
+        </div>
+      </div>
+      <aside class="hero-card reveal" aria-label="Studio highlights">
+        <span>Signature Experience</span>
+        <strong>98%</strong>
+        <p>of guests rebook within eight weeks after their first Luna transformation.</p>
+      </aside>
+      <div class="scroll-cue" aria-hidden="true">Scroll</div>
+    </section>
+
+    <section class="story-band">
+      <div class="story-step reveal">
+        <span>01</span>
+        <h2>Beauty</h2>
+        <p>An intentional beginning: texture, tone, lifestyle, and the woman you are becoming.</p>
+      </div>
+      <div class="story-step reveal">
+        <span>02</span>
+        <h2>Transformation</h2>
+        <p>Soft dimension, healthy shine, premium extensions, and artistry that moves naturally.</p>
+      </div>
+      <div class="story-step reveal">
+        <span>03</span>
+        <h2>Confidence</h2>
+        <p>A final reveal designed to feel effortless, modern, and unmistakably personal.</p>
+      </div>
+    </section>
+
+    <section class="section difference" id="difference">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Why We Are Different</p>
+        <h2>A salon experience with the precision of a couture fitting.</h2>
+      </div>
+      <div class="difference-grid">
+        <article class="feature-card reveal" tabindex="0">
+          <span>01</span>
+          <h3>Personalized Consultations</h3>
+          <p>Every appointment begins with face shape, tone, hair history, routine, and long-term goals.</p>
+        </article>
+        <article class="feature-card reveal" tabindex="0">
+          <span>02</span>
+          <h3>Premium Products</h3>
+          <p>Luxury color systems, bond builders, glosses, and aftercare curated for lasting radiance.</p>
+        </article>
+        <article class="feature-card reveal" tabindex="0">
+          <span>03</span>
+          <h3>Expert Stylists</h3>
+          <p>Specialists in dimensional color, extensions, bridal hair, and healthy hair transformations.</p>
+        </article>
+        <article class="feature-card reveal" tabindex="0">
+          <span>04</span>
+          <h3>Luxury Experience</h3>
+          <p>Private styling rituals, warm towels, espresso service, quiet finishing, and photo-ready reveals.</p>
+        </article>
+        <article class="feature-card reveal" tabindex="0">
+          <span>05</span>
+          <h3>Long-Lasting Results</h3>
+          <p>Maintenance plans and product guidance help your hair stay expensive-looking between visits.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Services</p>
+        <h2>Designed for color, movement, and presence.</h2>
+      </div>
+      <div class="service-grid" id="serviceGrid"></div>
+    </section>
+
+    <section class="section transformation" id="gallery">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Transformation Gallery</p>
+        <h2>Before, after, and the story in between.</h2>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+    </section>
+
+    <section class="experience" id="experience">
+      <div class="experience-copy reveal">
+        <p class="eyebrow">Salon Experience</p>
+        <h2>Your transformation, choreographed.</h2>
+        <p>From the first conversation to the final mirror turn, the Luna method is calm, visual, and deeply personal.</p>
+      </div>
+      <div class="journey">
+        <div class="journey-line" aria-hidden="true"></div>
+        <article class="journey-step reveal">
+          <span>1</span>
+          <h3>Consultation</h3>
+          <p>We map your hair history, inspiration, and daily styling rhythm.</p>
+        </article>
+        <article class="journey-step reveal">
+          <span>2</span>
+          <h3>Personalized Plan</h3>
+          <p>Your color, cut, extension, or treatment plan is built around health first.</p>
+        </article>
+        <article class="journey-step reveal">
+          <span>3</span>
+          <h3>Transformation</h3>
+          <p>Dimensional artistry, gentle technique, and premium care products come together.</p>
+        </article>
+        <article class="journey-step reveal">
+          <span>4</span>
+          <h3>Final Reveal</h3>
+          <p>We finish, photograph, and teach you how to recreate the look at home.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Luna studio metrics">
+      <div class="metric reveal"><strong data-count="1200">0</strong><span>Transformations</span></div>
+      <div class="metric reveal"><strong data-count="8">0</strong><span>Color Specialists</span></div>
+      <div class="metric reveal"><strong data-count="96">0</strong><span>5-Star Reviews</span></div>
+      <div class="metric reveal"><strong data-count="14">0</strong><span>Years Experience</span></div>
+    </section>
+
+    <section class="section reviews" id="reviews">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Client Reviews</p>
+        <h2>Confidence, in their own words.</h2>
+      </div>
+      <div class="review-track" id="reviewTrack"></div>
+    </section>
+
+    <section class="section team" id="team">
+      <div class="section-intro reveal">
+        <p class="eyebrow">Meet The Team</p>
+        <h2>Artists with a point of view.</h2>
+      </div>
+      <div class="team-grid">
+        <article class="team-card reveal">
+          <img src="https://images.unsplash.com/photo-1548142813-c348350df52b?auto=format&fit=crop&w=800&q=85" alt="Portrait of salon founder">
+          <div><span>Founder</span><h3>Elena Marceau</h3><p>Elena founded Luna after twelve years in editorial color and luxury salon education, bringing a calm, couture approach to Seattle hair.</p></div>
+        </article>
+        <article class="team-card reveal">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=85" alt="Portrait of senior stylist">
+          <div><span>Senior Stylist</span><h3>Maya Chen</h3><p>Maya specializes in modern shape, soft movement, and haircuts that grow out beautifully for busy professional women.</p></div>
+        </article>
+        <article class="team-card reveal">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85" alt="Portrait of color specialist">
+          <div><span>Color Specialist</span><h3>Sofia Bell</h3><p>Sofia is known for luminous brunettes, champagne blondes, corrective color, and dimension that never feels overdone.</p></div>
+        </article>
+        <article class="team-card reveal">
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=800&q=85" alt="Portrait of extension expert">
+          <div><span>Extension Expert</span><h3>Naomi Hart</h3><p>Naomi creates seamless length and density using custom placement, tone matching, and comfort-led installation methods.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="section-intro reveal">
+        <p class="eyebrow">FAQ</p>
+        <h2>The details before your first visit.</h2>
+      </div>
+      <div class="faq-list">
+        <details class="reveal">
+          <summary>Do I need a consultation before booking color or extensions?</summary>
+          <p>Yes. Consultations help us assess hair health, timing, pricing, and the best path to your goal.</p>
+        </details>
+        <details class="reveal">
+          <summary>How far in advance should I book?</summary>
+          <p>We recommend two to four weeks for color and six to eight weeks for bridal or extension services.</p>
+        </details>
+        <details class="reveal">
+          <summary>Do you work with damaged or previously colored hair?</summary>
+          <p>Absolutely. We create gradual plans that prioritize strength, shine, and realistic color progression.</p>
+        </details>
+        <details class="reveal">
+          <summary>What products do you recommend after appointments?</summary>
+          <p>Your stylist will prescribe a simple aftercare ritual based on your hair type, color, and styling habits.</p>
+        </details>
+        <details class="reveal">
+          <summary>Is parking available?</summary>
+          <p>Metered street parking and nearby garage parking are available within a two-minute walk of the studio.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Book Consultation</p>
+        <h2>Begin your Luna transformation.</h2>
+        <div class="contact-list">
+          <a href="tel:+12065550184">(206) 555-0184</a>
+          <a href="mailto:hello@lunahairseattle.com">hello@lunahairseattle.com</a>
+          <a href="https://www.instagram.com/lunahairseattle" target="_blank" rel="noreferrer">@lunahairseattle</a>
+          <span>1427 1st Avenue, Suite 402, Seattle, WA 98101</span>
+        </div>
+        <div class="hours">
+          <strong>Hours</strong>
+          <p>Tue-Fri 10 AM-7 PM · Sat 9 AM-5 PM · Sun-Mon Closed</p>
+        </div>
+      </div>
+      <form class="contact-form reveal">
+        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+        <label>Email<input type="email" name="email" placeholder="you@example.com" required></label>
+        <label>Service<select name="service" required><option value="">Select a service</option><option>Hair Coloring</option><option>Balayage</option><option>Hair Extensions</option><option>Bridal Hair</option><option>Consultation</option></select></label>
+        <label>Vision<textarea name="message" placeholder="Tell us about your hair goals"></textarea></label>
+        <button class="btn btn-primary" type="submit">Send Request</button>
+        <p class="form-note" role="status"></p>
+      </form>
+      <div class="map reveal">
+        <iframe title="Map to Luna Hair Studio in Seattle" loading="lazy" src="https://www.google.com/maps?q=1427%201st%20Avenue%20Seattle%20WA%2098101&output=embed"></iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#top" aria-label="Luna Hair Studio home">
+      <span class="brand-symbol" aria-hidden="true">◐</span>
+      <span><strong>LUNA</strong><em>Hair Studio</em></span>
+    </a>
+    <p>Where Beauty Meets Confidence</p>
+    <small>© 2026 Luna Hair Studio. Seattle, Washington.</small>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-shell">
+      <button class="modal-close" type="button" aria-label="Close modal">×</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
