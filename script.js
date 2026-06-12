@@ -4,14 +4,17 @@ const services = [
     label: "Signature color",
     price: "$185-$360",
     duration: "2.5-4 hours",
-    image: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=900&q=84",
-    description: "Dimensional, glossy color designed around your complexion, maintenance goals, and personal style.",
-    process: "Consultation, strand history review, custom formula, bond-building color service, gloss, treatment, and polished finish.",
-    results: "Rich shine, softened regrowth, enhanced tone, and a color plan that feels expensive without looking artificial.",
+    image: "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=1000&q=86",
+    description: "Custom permanent, demi, or gloss color for guests who want richer tone, grey blending, or a complete shade shift.",
+    process: [
+      "Analyze existing color, porosity, grey pattern, and previous lightener history.",
+      "Mix a custom formula with bond support and apply in controlled zones for even saturation.",
+      "Finish with a balancing gloss, moisture treatment, blowout, and home-care prescription."
+    ],
+    results: "Balanced tone, expensive shine, healthier-looking ends, and a maintenance plan that keeps the color intentional.",
     gallery: [
-      "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1560869713-da86a9ec784a?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1559599101-f09722fb4948?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1560869713-da86a9ec784a?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=86"
     ]
   },
   {
@@ -19,14 +22,17 @@ const services = [
     label: "Hand-painted light",
     price: "$260-$520",
     duration: "3.5-6 hours",
-    image: "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=900&q=84",
-    description: "Soft, hand-painted brightness with seamless dimension and a lived-in grow-out.",
-    process: "Visual mapping, custom light placement, gentle lift, toner, bond repair, haircut refinement, and styling.",
-    results: "Sunlit dimension, natural movement, and brightness that stays graceful for months.",
+    image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1000&q=86",
+    description: "Hand-painted brightness for soft ribbons, graceful grow-out, and dimension that looks sunlit rather than striped.",
+    process: [
+      "Map brightness around the face, crown, and ends according to your haircut and daily styling.",
+      "Paint open-air or foil-assisted balayage where lift is needed while preserving natural depth.",
+      "Tone to champagne, beige, caramel, or brunette gloss and finish with bond repair."
+    ],
+    results: "A luminous, lived-in blend with soft dimension and less obvious regrowth between appointments.",
     gallery: [
-      "https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1523263685509-57c1d050d19b?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1512316609839-ce289d3eba0a?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1487412912498-0447578fcca8?auto=format&fit=crop&w=1000&q=86"
     ]
   },
   {
@@ -34,14 +40,17 @@ const services = [
     label: "Radiant dimension",
     price: "$210-$430",
     duration: "3-5 hours",
-    image: "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=900&q=84",
-    description: "Fine, luminous highlights tailored for brightness, contrast, or soft blending.",
-    process: "Foil placement strategy, controlled lift, custom toner, gloss, hairline detail, and finishing style.",
-    results: "Refined brightness, polished dimension, and a high-shine finish that photographs beautifully.",
+    image: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&w=1000&q=86",
+    description: "Foil highlights for guests who want precise brightness, face-framing lift, or controlled blonde dimension.",
+    process: [
+      "Choose fine, medium, or bold foil placement based on your target brightness.",
+      "Lift with protected sections and detailed hairline placement for a polished result.",
+      "Tone, gloss, trim if needed, and style so the dimension is visible from every angle."
+    ],
+    results: "Clean brightness, refined contrast, and a controlled blonde or brunette highlight pattern.",
     gallery: [
-      "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1554519515-242161756769?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1560869713-da86a9ec784a?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1000&q=86"
     ]
   },
   {
@@ -49,14 +58,17 @@ const services = [
     label: "Custom length",
     price: "$650-$1,850",
     duration: "2-5 hours",
-    image: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&w=900&q=84",
-    description: "Seamless volume and length using premium hair, custom color matching, and comfort-led placement.",
-    process: "Consultation, shade blend, density plan, installation, precision blending, styling, and care ritual.",
-    results: "Natural movement, fuller shape, longer hair, and a result that feels secure and invisible.",
+    image: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=1000&q=86",
+    description: "Premium extensions for density, length, or both, matched to your color and placed for natural movement.",
+    process: [
+      "Consultation, density mapping, shade matching, and method selection based on scalp comfort.",
+      "Install wefts, tape-ins, or keratin bonds in custom rows or sections for invisible blending.",
+      "Cut, layer, curl, and teach brush, wash, and sleep care for long-term wear."
+    ],
+    results: "Fuller, longer hair with a soft blend through the perimeter and no obvious attachment points.",
     gallery: [
-      "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1534008757030-27299c4371b6?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=86"
     ]
   },
   {
@@ -64,14 +76,17 @@ const services = [
     label: "Repair ritual",
     price: "$95-$240",
     duration: "60-110 minutes",
-    image: "https://images.unsplash.com/photo-1595475884562-073c30d45670?auto=format&fit=crop&w=900&q=84",
-    description: "Restorative treatments for strength, hydration, frizz control, scalp comfort, and mirror-like shine.",
-    process: "Hair and scalp analysis, clarifying cleanse, targeted treatment, steam infusion, glossing finish, and care plan.",
-    results: "Softer texture, stronger strands, reduced frizz, and a healthier foundation for future color.",
+    image: "https://images.unsplash.com/photo-1595475884562-073c30d45670?auto=format&fit=crop&w=1000&q=86",
+    description: "Repair, hydration, smoothing, and gloss rituals for hair that needs strength, softness, or frizz control.",
+    process: [
+      "Assess hair elasticity, scalp comfort, frizz pattern, and moisture loss.",
+      "Clarify, apply a targeted mask or bond treatment, and use warm towel or steam processing.",
+      "Seal with a glossing finish and prescribe a simple weekly home ritual."
+    ],
+    results: "Softer feel, calmer texture, added shine, and stronger hair before future color or extension work.",
     gallery: [
-      "https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1600948836101-f9ffda59d250?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1000&q=86"
     ]
   },
   {
@@ -79,14 +94,17 @@ const services = [
     label: "Architectural shape",
     price: "$95-$165",
     duration: "75-100 minutes",
-    image: "https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?auto=format&fit=crop&w=900&q=84",
-    description: "Modern shaping for movement, balance, and a beautiful grow-out.",
-    process: "Lifestyle consultation, dry and wet shaping, detail refinement, styling lesson, and finishing polish.",
-    results: "A flattering silhouette, airy movement, and a cut that supports your natural texture.",
+    image: "https://images.unsplash.com/photo-1599351431613-18ef1fdd27e1?auto=format&fit=crop&w=1000&q=86",
+    description: "Precision shaping for long layers, soft bobs, face framing, curtain fringe, and healthy perimeter work.",
+    process: [
+      "Discuss styling habits, natural texture, density, face shape, and how often you want to maintain the cut.",
+      "Shape wet and refine dry so movement, balance, and weight removal are precise.",
+      "Style the cut and teach the brush, product, or heat approach that supports it."
+    ],
+    results: "A flattering silhouette with movement, cleaner ends, and a shape that grows out gracefully.",
     gallery: [
-      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1000&q=86"
     ]
   },
   {
@@ -94,14 +112,17 @@ const services = [
     label: "Polished finish",
     price: "$85-$175",
     duration: "60-90 minutes",
-    image: "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=900&q=84",
-    description: "Editorial waves, smooth finishing, event styling, and elevated everyday polish.",
-    process: "Prep, heat protection, shape creation, detail work, soft hold, and finishing shine.",
-    results: "Movement that lasts, camera-ready texture, and a finish tailored to your occasion.",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=86",
+    description: "Polished blowouts, sculpted waves, smooth finishing, and occasion styling with soft movement.",
+    process: [
+      "Prep with the correct foundation for volume, hold, shine, or humidity control.",
+      "Build the shape with blow-drying, hot tools, pinning, or brush work according to the desired finish.",
+      "Detail the hairline, set the shape, and finish with touchable hold."
+    ],
+    results: "Camera-ready hair with movement, shine, and a finish that feels elevated without stiffness.",
     gallery: [
-      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1524250502761-1ac6f2e30d43?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=86"
     ]
   },
   {
@@ -109,14 +130,17 @@ const services = [
     label: "Ceremony ready",
     price: "$225-$520",
     duration: "2-4 hours",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=84",
-    description: "Romantic, secure, luxury bridal styling for modern ceremonies and full-day wear.",
-    process: "Preview session, veil and accessory planning, event-day prep, sculpting, setting, and final photo check.",
-    results: "Soft structure, graceful detail, lasting hold, and a look that feels like you at your most refined.",
+    image: "https://images.unsplash.com/photo-1509610973147-232dfea52a97?auto=format&fit=crop&w=1000&q=86",
+    description: "Romantic, secure bridal styling for ceremony, reception, portraits, and full-day wear.",
+    process: [
+      "Preview the hair with veil, neckline, accessories, weather, and photography timeline in mind.",
+      "Prep, set, sculpt, pin, and reinforce the style so it stays soft but secure.",
+      "Finish with shine, detail photos, emergency pins, and touch-up guidance."
+    ],
+    results: "A refined bridal style with soft structure, lasting hold, and a natural relationship to your dress and makeup.",
     gallery: [
-      "https://images.unsplash.com/photo-1509610973147-232dfea52a97?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=84",
-      "https://images.unsplash.com/photo-1523438885200-e635ba2c371e?auto=format&fit=crop&w=900&q=84"
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=86",
+      "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1000&q=86"
     ]
   }
 ];
@@ -125,21 +149,25 @@ const projects = [
   {
     title: "Espresso Gloss Renewal",
     label: "Color correction",
-    image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=86",
-    before: "https://images.unsplash.com/photo-1551727974-8af20a3322f1?auto=format&fit=crop&w=900&q=84",
-    after: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=900&q=86",
-    process: "We softened old warmth, rebuilt shine with bond care, and glazed the hair into a deep espresso brunette.",
-    products: "Ammonia-light color, acidic gloss, bond builder, hydrating mask, lightweight shine serum.",
+    image: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1100&q=86",
+    before: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=86",
+    after: "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1000&q=86",
+    beforeNote: "Uneven warmth, dull mid-lengths, and dry-looking ends.",
+    afterNote: "Deep brunette gloss with controlled warmth and softer reflection.",
+    process: "We filled porous ends, cooled old warmth, rebuilt shine with bond care, and finished with a deep espresso glaze.",
+    products: "Demi-permanent low-ammonia color, acidic gloss, bond builder, hydrating mask, lightweight shine serum.",
     time: "4.5 hours",
     outcome: "The client wanted polished brunette hair that felt luxurious, healthy, and easy to maintain."
   },
   {
     title: "Champagne Blonde Veil",
     label: "Balayage",
-    image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=86",
-    before: "https://images.unsplash.com/photo-1542596594-649edbc13630?auto=format&fit=crop&w=900&q=84",
-    after: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=900&q=86",
-    process: "Hand-painted ribbons were placed around the face and crown, then toned to a soft champagne finish.",
+    image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1000&q=86",
+    before: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1000&q=86",
+    after: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?auto=format&fit=crop&w=1000&q=86",
+    beforeNote: "Flat blonde with muted face-frame brightness.",
+    afterNote: "Champagne ribbons and a brighter veil around the hairline.",
+    process: "Hand-painted ribbons were placed around the face and crown, then glossed to a soft champagne finish.",
     products: "Clay lightener, gloss toner, bond sealer, violet shampoo plan, heat protectant.",
     time: "5 hours",
     outcome: "Soft brightness with a refined grow-out and a more luminous frame around the face."
@@ -147,9 +175,11 @@ const projects = [
   {
     title: "Luminous Length Edit",
     label: "Extensions",
-    image: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&w=900&q=86",
-    before: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=900&q=84",
-    after: "https://images.unsplash.com/photo-1522336572468-97b06e8ef143?auto=format&fit=crop&w=900&q=86",
+    image: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=1000&q=86",
+    before: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=1000&q=86",
+    after: "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=1000&q=86",
+    beforeNote: "Fine perimeter with less density through the front.",
+    afterNote: "Custom density and blended length through the same silhouette.",
     process: "Custom shade blending and hidden placement created natural fullness without compromising comfort.",
     products: "Premium wefts, color-safe gloss, extension brush, silk leave-in, flexible finishing spray.",
     time: "3.5 hours",
@@ -158,9 +188,11 @@ const projects = [
   {
     title: "Soft Copper Return",
     label: "Color transformation",
-    image: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=900&q=86",
-    before: "https://images.unsplash.com/photo-1524503033411-c9566986fc8f?auto=format&fit=crop&w=900&q=84",
-    after: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=900&q=86",
+    image: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=86",
+    before: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=86",
+    after: "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=86",
+    beforeNote: "Faded warmth and low shine after seasonal color wear.",
+    afterNote: "Muted copper reflection with a richer, more intentional finish.",
     process: "We filled faded ends, restored warmth, and glossed the hair into a muted copper tone.",
     products: "Demi-permanent fill, copper gloss, reparative mask, color-depositing conditioner.",
     time: "3 hours",
@@ -169,9 +201,11 @@ const projects = [
   {
     title: "Bridal Sculpted Wave",
     label: "Event styling",
-    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=86",
-    before: "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=900&q=84",
-    after: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=900&q=86",
+    image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=86",
+    before: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=86",
+    after: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=86",
+    beforeNote: "Freshly prepped hair before sculpting and placement.",
+    afterNote: "Structured bridal wave with soft movement and secure hold.",
     process: "A structured wave set was brushed into soft movement and secured for all-day ceremony wear.",
     products: "Thermal primer, memory mousse, flexible spray, shine mist, humidity shield.",
     time: "2.5 hours",
@@ -269,12 +303,19 @@ function openService(service) {
         <p class="eyebrow">${service.label}</p>
         <h2>${service.title}</h2>
         <p>${service.description}</p>
-        <p><strong>Duration:</strong> ${service.duration}</p>
-        <p><strong>Pricing:</strong> ${service.price}</p>
+        <div class="modal-meta">
+          <span><strong>Duration</strong>${service.duration}</span>
+          <span><strong>Pricing</strong>${service.price}</span>
+        </div>
       </div>
     </div>
     <div class="detail-grid">
-      <div class="detail-item"><strong>Process</strong><p>${service.process}</p></div>
+      <div class="detail-item detail-item-wide">
+        <strong>Process</strong>
+        <ol class="process-list">
+          ${service.process.map(step => `<li>${step}</li>`).join("")}
+        </ol>
+      </div>
       <div class="detail-item"><strong>Expected Results</strong><p>${service.results}</p></div>
     </div>
     <div class="modal-gallery">
@@ -287,12 +328,14 @@ function openService(service) {
 function openProject(project) {
   modalBody.innerHTML = `
     <div class="before-after">
-      <div class="ba-panel"><img src="${project.before}" alt="${project.title} before"><span>Before</span></div>
-      <div class="ba-panel"><img src="${project.after}" alt="${project.title} after"><span>After</span></div>
+      <div class="ba-panel ba-before"><img src="${project.before}" alt="${project.title} before"><span>Before</span><p>${project.beforeNote}</p></div>
+      <div class="ba-panel"><img src="${project.after}" alt="${project.title} after"><span>After</span><p>${project.afterNote}</p></div>
     </div>
-    <div class="modal-copy">
-      <p class="eyebrow">${project.label}</p>
-      <h2>${project.title}</h2>
+    <div class="modal-copy case-summary">
+      <div>
+        <p class="eyebrow">${project.label}</p>
+        <h2>${project.title}</h2>
+      </div>
       <p>${project.outcome}</p>
     </div>
     <div class="detail-grid">
